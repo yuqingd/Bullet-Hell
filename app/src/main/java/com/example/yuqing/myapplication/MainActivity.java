@@ -13,7 +13,7 @@ import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
-    @Override
+    @Override //lol
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
