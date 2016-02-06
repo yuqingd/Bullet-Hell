@@ -21,6 +21,10 @@
         <activity
             android:name=".Settings_Page"
             android:label="@string/title_activity_settings__page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Play"
+            android:label="@string/title_activity_play"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
