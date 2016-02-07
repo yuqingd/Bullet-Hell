@@ -36,6 +36,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, Settings_Page.class));
             }
         });
+
+        Button playButton = (Button) findViewById(R.id.button);
+
+        playButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Play.class));
+            }
+        });
     }
 
     @Override
